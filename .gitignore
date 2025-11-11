@@ -1,0 +1,55 @@
+# ==============================================================
+# 1. DATASETS – never commit raw data (CSV, ZIP, SQLite, etc.)
+# ==============================================================
+*.csv
+*.zip
+*.sqlite
+*.db
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+
+
+# ----------------------------------------------------------------
+# 3. GENERATED / OUTPUT FILES (Excel reports, etc.)
+# ----------------------------------------------------------------
+excel_files/
+*.xlsx
+*.xls
+
+# ----------------------------------------------------------------
+# 4. JUPYTER / PYTHON TEMP FILES
+# ----------------------------------------------------------------
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ----------------------------------------------------------------
+# 5. OS / IDE JUNK
+# ----------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# ----------------------------------------------------------------
+# 6. KEEP THESE (explicitly un-ignore if needed)
+# ----------------------------------------------------------------
+# Keep the *structure* of the data folders (empty placeholder files)
+
+!LUNG CANCER/.gitkeep
+
+# Keep notebooks, scripts, figures, and the README
+!*.ipynb
+!*.py
+!figures/
+!visuals/
+!*.md
+!*.txt
+
